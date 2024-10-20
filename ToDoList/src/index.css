@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #382143;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#planList::-webkit-scrollbar {
+  width: 4px;
+
+}
+
+#planList::-webkit-scrollbar-thumb {
+  background-color: rgb(142, 96, 158);
+  border-radius: 50px;
+}
